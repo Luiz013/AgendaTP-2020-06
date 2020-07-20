@@ -73,10 +73,13 @@ int main(int argc, char **argv) {
 				removerCompromisso();
 				break;
 			case MOSTRAR_COMPROMISSO:
-				verCompromissos();
+				verCompromisso();
 				break;
 			case EDITAR_COMPROMISSO:
 				editarComrpromisso();
+
+			
+
 				break;
 		}
 
